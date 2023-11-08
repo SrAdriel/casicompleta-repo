@@ -1,0 +1,71 @@
+main {
+    background-color: #efeae1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: column;
+}
+
+#encabezado h3 {
+    color: #4f4f4f;
+    font-weight: 300;
+}
+
+#variedades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjetas {
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: start;
+}
+
+.tarjetas .titulo {
+    background-position: 100%;
+    background-size: cover;
+    height: 15em;
+    display: flex;
+    flex-direction: column-reverse;
+    box-shadow: 0px -80px 50px #ffffff90 inset;
+    margin-bottom: 4%;
+    border-radius: 5px;
+}
+
+.titulo h1 {
+    margin-left: 4%;
+}
+
+.region h5 {
+    color: #4f4f4f;
+}
+
+#t1 {
+    background-image: url(../imgs/cafe\ moka.jpeg);
+}
+
+#t2 {
+    background-image: url(../imgs/cafe\ java.jpeg);
+}
+
+#t3 {
+    background-image: url(../imgs/cafe\ keniaAA.jpeg);
+}
+
+#t4 {
+    background-image: url(../imgs/cafe\ terrazu.avif);
+}
+
+#t5 {
+    background-image: url(../imgs/cafe\ typica.jpeg);
+}
+
+#t6 {
+    background-image: url(../imgs/cafe\ mundo\ novo.png);
+}

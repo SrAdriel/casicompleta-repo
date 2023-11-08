@@ -1,0 +1,53 @@
+#significado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0%;
+}
+
+#arabico {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+#infoarabico {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cosita {
+    height: 40em;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+#box1 {
+    background-image: url(../imgs/fondo.png);
+    background-position: 0%;
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url(../imgs/fondo.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+#box3 {
+    background-image: url(../imgs/fondo.png);
+    background-position: 100%;
+    background-size: cover;
+}
+
+#arabico p {
+    color: #fff;
+}

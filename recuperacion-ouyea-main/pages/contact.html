@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contactStyle.css">
+    <script src="../js/menu.js"></script>
+    <script src="../js/footer.js"></script>
+    <title>Contáctanos</title>
+</head>
+<body>
+    <div id="contenedorMenu">
+
+    </div>
+    
+    <main>
+        <div class="container-fluid" style="background-color: var(--color-background); color: var(--color-letra);">
+            <div class="row container-fluid">
+                <section class="col-lg-6 col-md-6 col-sm-6 p-3 border-end border-bottom">
+                    <h2 class="text-center mt-3 fw-lighter">
+                        Contáctanos
+                    </h2>
+    
+    
+                    <!-- Primer Formulario -->
+                    <form id="formularioContacto" action="https://formsubmit.co/a73cde512b1ab7eed4b16175505d5f51" method="POST">
+                        <div class="form-group p-2">
+                            <label for="name" class="form-label">Ingrese su nombre:</label>
+                            <input type="text" class="form-control input" id="name" name="name" placeholder="Ingrese su nombre"
+                                required>
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="email" class="form-label">Ingrese su E-mail:</label>
+                            <input type="email" class="form-control input" id="email" name="email" placeholder="nombre@ejemplo.com"
+                                required>
+                            <small class="form-text text-muted">Este es un campo obligatorio</small>
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="asunto" class="form-label">Ingrese el asunto:</label>
+                            <input type="text" class="form-control input" id="subject" name="subject" placeholder="asunto"
+                                required>
+                        </div>
+                        <div class="form-group p-2">
+                            <label for="comments" class="form-label">Escribenos, ¿Sobre que tema deseas hablar?:</label>
+                            <textarea class="form-control input" id="comments" name="comments" rows="5" placeholder="Ingrese su mensaje"
+                                required></textarea>
+                        </div>
+                        <br>
+                        <input type="submit" class="ov-btn-grow-skew" id="enviar1Btn" value="enviar">
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div id="contenedorFoot">
+
+    </div>
+
+    <script src="../js/cargarMenu.js"></script>
+    <script src="../js/cargarFoot.js"></script>
+    <script src="../js/form1.js"></script>
+    <script src="../js/form2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
